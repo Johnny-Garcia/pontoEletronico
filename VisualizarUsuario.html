@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+ <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <title>VISUALIZAR USUARIO</title>
+        <link rel="stylesheet" type="text/css" href="estilo-visualizarUsuario.css">
+    </head>
+    <body>
+        <div id="block1">
+            <img id="titulo" src="img/img-ponto.png" alt="imagem ponto">
+            <div id="wrap2">
+                <h2>Perfil: Trabalhador</h2>
+                <h1>Usuário: Fulano de Tal</h1>
+            </div>
+            <div id="opcoes">
+                <a href="">Inserir</a>
+                <a href="">Editar</a>
+                <a href="">Visualisar</a>
+            </div>
+            <div id="block2">
+                <h3>Vizualizar</h3>
+                <table id="table0">
+                    <tr>
+                        <td>Data Entrada</td>
+                        <td>Data Saída</td>
+                        <td>Justificativa</td>
+                    </tr>
+                    <tr>
+                        <td><input  type="date" name="data" placeholder="DataEntrada"></td>
+                        <td><input  type="date" name="data" placeholder="DataSaida"></td>
+                        <td>
+                            <select>
+                                <option value="Ativ Pont">Atividades Pontuais</option>
+                                <option value="Prod Cont">Produção de Conteúdo</option>
+                                <option value="Outros">Outros</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <div id="buttoninserirhora">
+                    <button>Consultar</button>
+                </div>
+                <h3>Lista de Horas</h3>
+                <table id= "table1" border="3">
+                    <tr>
+                        <td>Data</td>
+                        <td>Hora entrada</td>
+                        <td>Hora Saída</td>
+                        <td>Total Horas</td>
+                        <td>Justificativa</td>
+                        <td>Opções</td>
+                    </tr>
+                    <tr>
+                        <td>10/10/2016</td>
+                        <td>08:00</td>
+                        <td>12:00</td>
+                        <td>4</td>
+                        <td>Versionamento</td>
+                        <td><img src="img/editar-icon.png" alt="editar"><img src="img/excluir-icon.png" alt="excluir"></td>
+                    </tr>
+                    <tr>
+                        <td>10/10/2016</td>
+                        <td>13:00</td>
+                        <td>17:00</td>
+                        <td>4</td>
+                        <td>Produção</td>
+                        <td><img src="img/editar-icon.png" alt="editar"><img src="img/excluir-icon.png" alt="excluir"></td>
+                    </tr>
+                    <tr>
+                        <td>11/10/2016</td>
+                        <td>10:00</td>
+                        <td>12:00</td>
+                        <td>2</td>
+                        <td>Capacitação</td>
+                        <td><img src="img/editar-icon.png" alt="editar"><img src="img/excluir-icon.png" alt="excluir"></td>
+                    </tr>
+                </table>
+                <h3>Legenda</h3>
+                <div class="rodape">
+                    <img class="legenda" src="img/imprimir-icon.png" alt="imprimir"/>
+                    <span>Imprimir</span>
+                </div>
+                <div class="rodape">
+                    <img class="legenda" src="img/excel-icon.png" alt="excel"/>
+                    <span>Download Excel</span>
+                </div>
+                <div class="rodape">
+                    <img class="legenda" src="img/pdf-icon.png" alt="pdf"/>
+                    <span>Download PDF</span>
+                </div>
+                <h3>Status</h3>
+                    <div id="table2">
+                        <p>Enviada para o coordenador</p>
+                    </div>
+            </div>
+        </div>
+    </body> 
+
+ </html>

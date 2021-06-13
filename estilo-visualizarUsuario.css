@@ -1,0 +1,131 @@
+#block1{
+    margin: auto;
+    background-color:rgba(207, 207, 207, 0.719);
+    width: 800px;
+    padding: 10px 15px 15px 15px;
+    border-radius: 10px;
+}
+
+#block2{
+    margin: auto;
+    background-color:rgb(180, 178, 178);
+    width: 780px;
+    padding: 10px 15px 15px 15px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+h1 {color:rgb(35, 76, 190);
+    width: 350px;
+    font-size: x-large;
+}
+
+h2{
+    float: right;
+    padding-right: 10px;
+}
+
+#titulo{
+    height: 180px;
+    display: block;
+    margin: auto;
+}
+
+#wrap1{
+    margin: auto;
+    background-color: rgb(187, 187, 187);
+    width: 300px;
+    padding: 10px 15px 15px 15px;
+    border-radius: 10px;
+}
+
+#wrap2{
+    background-color: darkgray;
+    width: 780px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+ul li{
+    display: inline-block;
+    margin-inline-start: 20px;
+    margin-inline-end: 75px;
+    margin-right: 77px;
+}
+
+input{
+    margin-right: 70px;
+}
+
+td img{
+    height: 25px;
+    display: inline;
+    padding: auto;
+    margin: auto;
+}
+
+div.rodape{
+    height: 30px;
+    display: inline-block;
+    padding-right: 40px;
+}
+
+#table1{
+    background-color:rgb(158, 192, 194);
+    width: 700px;
+    margin: auto;
+}
+
+#table0{
+    background-color: gainsboro;
+    margin: auto;
+    border-radius: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#table2{
+    background-color: gainsboro;
+    margin: auto;
+    border-radius: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+tr td{
+    position:static;
+    margin: auto;
+    padding: auto;
+}
+button {
+    margin: center;
+    background-color: rgb(31, 143, 195);
+    font-size: medium;  
+}
+#buttoninserirhora{
+    margin-left: 660px;
+    padding-top: 20px;
+}
+
+div.button{
+    margin-left: 550px;
+}
+
+#opcoes{
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+select{
+    height: 25px;
+}
+
+a{
+    text-decoration: none;
+}

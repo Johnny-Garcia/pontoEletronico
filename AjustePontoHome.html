@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <title>SISTEMA AJUSTE PONTO</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <script>
+            function validarEmail(){
+                var email = document.getElementById("email");
+                if(email.value == ""){
+                    alert("Email não informado");
+                    email.focus();
+                }else if(email.search('@')){
+                    alert("Email correto");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="block1">
+            <img src="img/img-ponto.png" alt="imagem ponto">
+            <h1>Sistema Ajuste de Ponto</h1>
+            <p><b>Digite seu e-mail para acessar</b></p>
+                <div id="wrap2">
+                    <aside>
+                        <h2>Agenda</h2>
+                        <ul>
+                            <li>17/03 - Reunião da Sprint</li>
+                            <li>17/03 - Reuniâo da Sprint</li>
+                            <li>17/03 - Reuniâo da Sprint</li>
+                        </ul>
+                    </aside>
+                </div>
+                <div id="wrap1">
+                <form action="#" onsubmit="validarEmail()" >
+                        <p><b>E-mail</b></p>
+                        <input id="email" type="text" name="inlogin" style="width:250px">
+                        <p><b>Senha</b></p>
+                        <input id="senha" type="text" name="insenha" style="width:250px">
+                </div>
+                    <input type="submit" name="enviar" id="enviar">
+                </form>
+            <p><a href="">Quero me cadastrar</a></p>
+            <a href="">Esqueci minha senha</a>
+    </div>
+    </body>
+
+ </html>
